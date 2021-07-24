@@ -8,26 +8,26 @@
 <link rel="stylesheet" href="style.css">
 </head>
 
-<body>
-    <!--Onclick PW Generator-->
-    <div class="container">
+<body>    
+<!--Password Results-->
+<section class="container">
+    <header>
+        <h1 class= "title">  Password Generator </h1>
+        <textarea readonly id="password" placeholder = "secure password" aria-label= "generated password">
+        </textarea>
+    </header>
+<!--on click password generates-->
+    <footer>
+    <div class="output">
         <blockquote class="blockquote">
-    <h1 class= "title"> Password Generator </h1>
-        <button type="button" class="btn btn-success btn-lg" id="generatePassword"> Secure Password </button> 
-    </blockquote>
+            <h2 class= "results">  Click To Generate Password </h1>
+                <button type="button" class="btn btn-success btn-lg" id="generatePassword"> Secure Password </button> 
+        </blockquote>
     </div>
-    
-    <!--Password Results-->
-    <div class="container">
-        <div class="output">
-            <p class="returnPassword"> </p>
-        </div>
-    </div>
-
+    </footer>
+</section>
     <script src="./passwordgenerator.js">   
 </script>
 </body>
-
-
 
 </html>

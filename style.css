@@ -1,4 +1,19 @@
 .container {
-    box-sizing: content-box;
-    padding: 100px auto;
+    box-sizing: border-box;
+    padding: 25px auto;
+    font-style:italic black;
 }
+
+body {
+    height: 80%;
+    margin:5px;
+    padding:3px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+header,
+footer {
+    padding:4px;
+    text-align: center;
+    padding-top:2px;
+}
+
